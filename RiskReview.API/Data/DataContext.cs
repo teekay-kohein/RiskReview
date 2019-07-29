@@ -10,5 +10,6 @@ namespace RiskReview.API.Data
 
         //Declare Properties
         public DbSet<Value> Values { get; set;} //Values is the table name in DB
+        public DbSet<User> Users { get; set; }
     }
 }
